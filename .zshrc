@@ -30,8 +30,9 @@ antigen bundle zsh-users/zsh-autosuggestions
 
 # Theme Pure (repositorio sindresorhus/pure):
 #antigen bundle sindresorhus/pure
-# Cargando zsh/nearcolor hex en 256-colors:
-zmodload zsh/nearcolor
+# Cargando zsh/nearcolor hex en 256-colors o xterm-256color:
+# zmodload zsh/nearcolor
+export TERM=xterm-256color
 # Path (PWD): un verde azulado vibrante
 zstyle :prompt:pure:path            color 51
 # Git: rama principal en rosa brillante
