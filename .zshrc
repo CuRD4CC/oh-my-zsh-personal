@@ -73,6 +73,8 @@ prompt pure
 # Aplicando todos los bundles
 antigen apply
 
+# 🛠 Alias útiles
+alias xclip='sudo apt update && sudo apt install -y xclip'
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time Oh My Zsh is loaded, in which case,
