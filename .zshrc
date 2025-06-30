@@ -5,7 +5,9 @@
 #	export ZSH="$HOME/.oh-my-zsh"
 ###########################################testtesttesteststeststes
 # Carga Antigen
-source ~/.oh-my-zsh/antigen.zsh
+# source ~/.oh-my-zsh/antigen.zsh
+export DOTFILES="$HOME/dotfiles"
+source "$DOTFILES/.oh-my-zsh/antigen.zsh"
 
 # Inicializa colección de Oh My Zsh
 antigen use oh-my-zsh
