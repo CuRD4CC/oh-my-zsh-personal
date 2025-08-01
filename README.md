@@ -7,6 +7,12 @@ chmod +x script_term.sh
 Luego ejecutarlo 
 ./script_term.sh
 
+## Problemas comunes
+Si no carga cuando arranca la terminal asegurarse que se este ejecutando ZSH
+revisar en 
+~/.bashrc
+Agregar exec zsh
+
 
 ## Instalación rápida (sin testeo)
 
